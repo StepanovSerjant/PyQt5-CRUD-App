@@ -1,0 +1,67 @@
+#Dialog {
+	background-color: #17002e;
+}
+
+QLabel {
+	color: #b061ff;
+}
+
+QLabel#label {
+	color: #e3c7ff;
+}
+
+QMessageBox {
+	background-color: #17002e;
+}
+
+QMessageBox QLabel {
+    color: #e3c7ff;
+}
+
+QMessageBox QPushButton {
+	background-color: #98fb98;
+	color: #1d334a;
+	border-radius: 2px;
+	font-size: 14px;
+	font-weight: bold;
+	width: 60px;
+	height: 20px;
+}
+
+QLineEdit {
+	border-radius: 7px;
+	border: 3px solid #b061ff;
+	background-color: #e3c7ff;
+	color: #07000a;
+	font-size: 16px;
+}
+
+QLineEdit:hover {
+	border: 3px solid #962eff;
+}
+
+QPushButton#login_btn {
+	background-color: #98fb98;
+	color: #1d334a;
+	border-radius: 7px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+QPushButton#sign_up_btn {
+	background-color: #ff7581;
+	color: #1d334a;
+	border-radius: 7px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+QPushButton#login_btn:hover {
+	background-color: #66ff66;
+	border-radius: 13px;
+}
+
+QPushButton#sign_up_btn:hover {
+	background-color: #ff4252;
+	border-radius: 13px;
+}

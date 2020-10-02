@@ -1,0 +1,98 @@
+#Dialog {
+    background-color: #17002e;
+}
+
+QLabel#header_lbl, QLabel#username_lbl {
+	color: #e3c7ff;
+}
+
+QMessageBox {
+	background-color: #17002e;
+}
+
+QMessageBox QLabel {
+    color: #e3c7ff;
+}
+
+QMessageBox QPushButton {
+	background-color: #98fb98;
+	color: #1d334a;
+	border-radius: 2px;
+	font-size: 14px;
+	font-weight: bold;
+	width: 60px;
+	height: 20px;
+}
+
+QPushButton#add_btn {
+    background-color: #98fb98;
+    color: #1d334a;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+QPushButton#add_btn:hover {
+    background-color: #66ff66;
+    border-radius: 13px;
+}
+
+QPushButton#remove_btn {
+    background-color: #ff7581;
+    color: #1d334a;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+QPushButton#remove_btn:hover {
+    background-color: #ff4252;
+    border-radius: 13px;
+}
+
+QPushButton#edit_btn {
+    background-color: #ffff7a;
+    color: #1d334a;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+QPushButton#edit_btn:hover {
+    background-color: #fff44f;
+    border-radius: 13px;
+}
+
+QPushButton#logout_btn {
+    background-color: #17002e;
+    border: 2px solid #ff4252;
+    color: #e3c7ff;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+QPushButton#logout_btn:hover {
+    background-color: #ff4252;
+    border-radius: 13px;
+    color: #1d334a;
+}
+
+QTableView#tableView {
+    background-color: #e3c7ff;
+    border-radius: 7px;
+    border: 3px solid #b061ff;
+    font-size: 16px;
+    color: #1d334a;
+}
+
+QTableView#tableView QHeaderView::section, QTableView#tableView QFrame {
+  background-color:#b061ff;
+  color: #1d334a;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+QTableView#tableView QScrollBar::horizontal {
+  background-color:#b061ff;
+}
